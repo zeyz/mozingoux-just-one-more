@@ -1,10 +1,10 @@
-# Just One More
+# Austin’s Arcade
 
 Austin Mozingo’s personal browser arcade. An original, self-contained website with six playable games: Klondike solitaire, Bubble Break, Good Memory, Cosmic Pinball (the Cosmic Current table), Snake Club, and Double Up.
 
 [Play online](https://zeyz.github.io/mozingoux-just-one-more/) · [Source repository](https://github.com/zeyz/mozingoux-just-one-more)
 
-![Just One More arcade and its six games](screenshots/arcade-preview.jpg)
+![Austin’s Arcade homepage](screenshots/home-desktop.jpg)
 
 ## Play locally
 
