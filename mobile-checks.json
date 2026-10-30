@@ -1,0 +1,38 @@
+[
+  {
+    "game": "solitaire",
+    "scroll": 390,
+    "unlabelled": 0,
+    "width": 390
+  },
+  {
+    "game": "bubbles",
+    "scroll": 390,
+    "unlabelled": 0,
+    "width": 390
+  },
+  {
+    "game": "memory",
+    "scroll": 390,
+    "unlabelled": 0,
+    "width": 390
+  },
+  {
+    "game": "pinball",
+    "scroll": 390,
+    "unlabelled": 0,
+    "width": 390
+  },
+  {
+    "game": "snake",
+    "scroll": 390,
+    "unlabelled": 0,
+    "width": 390
+  },
+  {
+    "game": "merge",
+    "scroll": 390,
+    "unlabelled": 0,
+    "width": 390
+  }
+]

@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {createDeck,memoryScore} from '../games/memory.js';
+test('every board size creates exactly two of each face with unique IDs',()=>{for(const size of [6,8,12]){const deck=createDeck(size);assert.equal(deck.length,size*2);assert.equal(new Set(deck.map(c=>c.id)).size,size*2);for(let f=0;f<size;f++)assert.equal(deck.filter(c=>c.face===f).length,2);}});
+test('score rewards efficient play and has a positive floor',()=>{assert.equal(memoryScore(8,30),9050);assert.ok(memoryScore(8,30)>memoryScore(10,30));assert.ok(memoryScore(8,30)>memoryScore(8,60));assert.equal(memoryScore(200,1000),100);});
